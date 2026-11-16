@@ -1,0 +1,35 @@
+Markdown
+# System-0001: N=1 Longitudinal Longevity & Physiological Dataset
+
+> **Project Code**: System-0001  
+> **Subject Profile**: 65yo Male (De-identified N=1 Self-Tracking)  
+> **Core Objective**: Rigorous tracking, auditing, and open-source optimization of sleep architecture, autonomic nervous function, biomechanical load, and metabolic longevity protocols.
+
+---
+
+## 🔬 Project Overview (项目概述)
+This repository hosts the longitudinal $N=1$ physiological dataset and protocol documentation of **System-0001**. The system integrates wearable biometrics, circadian metabolic rules (e.g., Time-Restricted Eating, targeted leucine optimization), and biomechanical gait auditing (e.g., full-roll gait and mechanical load management) to target healthy lifespan extension.
+
+本仓库用于开源和记录 System-0001 的纵向 $N=1$ 生理数据集与抗衰干预协议，涵盖睡眠修复、神经能效（HRV）、昼夜血压、物理运动负荷与营养干预等多维时序数据。
+
+---
+
+## 📊 Dataset Structure (数据集结构)
+Data is structured in standardized CSV format (`data/weekly_log.csv`), adhering to tidy data principles. Key modules include:
+1. **Sleep Architecture**: Onset time, total duration, core/deep/REM sleep stages, nocturia count.
+2. **Autonomic & Vitality**: RMSSD (App/Watch), resting heart rate, SpO2, wrist temperature offset, vitality scores.
+3. **Blood Pressure**: Morning and evening 3-consecutive-reading averages.
+4. **Physical Load (Lagged alignment to next morning)**: Walking distance, speed, step asymmetry, double support time, targeted functional training.
+5. **Nutrition & Body Composition**: Fasting window, morning sea bass + L-leucine matrix, muscle mass %, BMI, BMR.
+
+---
+
+## 🤝 How to Collaborate (如何参与共创)
+We welcome biohackers, data scientists, and longevity researchers to analyze this dataset, propose data models, or suggest protocol refinements:
+- **Issues**: Open an issue if you spot anomalies, correlations, or have questions regarding the biometrics.
+- **Pull Requests**: Contributions to data visualization scripts (Python/R) or statistical correlation models are highly welcome.
+
+---
+
+## ⚠️ Disclaimer (免责声明)
+This repository reflects an independent, personal $N=1$ exploratory longevity project ((`System-0001`). The data and protocols shared here are for scientific communication and educational purposes only and do not constitute medical advice.
